@@ -244,16 +244,25 @@ a {
     border-bottom: 1px solid #393933;
   }
 
+  .hero {
+    padding: 1em;
+  }
+
+  #click-box{
+    top: 1em;
+    right: 1em;
+  }
+
   h1 {
     font-size: .8em;
   }
 
   li {
-    font-size: .6em;
+    font-size: .8em;
   }
 
   .photo {
-    height: 20em;
+    height: 10em;
   }
 
   h2 {
