@@ -158,7 +158,7 @@ a {
   height: 200px;
   float: left;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 1em;
 }
 
 .filler {
@@ -240,6 +240,7 @@ a {
 
 @media screen and (max-width:640px) {
   .module {
+    padding-top: 1.5em;
     width: 100%;
     border-bottom: 1px solid #393933;
   }
@@ -254,19 +255,19 @@ a {
   }
 
   h1 {
-    font-size: .8em;
+    font-size: .6em;
   }
 
   li {
-    font-size: .8em;
+    font-size: .6em;
   }
 
   .photo {
     height: 10em;
   }
 
-  h2 {
-    line-height: 1.5em;
+  h3 {
+    line-height: .8em;
   }
 
   .site-wrap.condensed {
