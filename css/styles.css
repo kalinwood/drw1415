@@ -244,11 +244,27 @@ a {
     border-bottom: 1px solid #393933;
   }
 
-  body {
-    font-size: 12px;
+  h1 {
+    font-size: .8em;
+  }
+
+  li {
+    font-size: .6em;
+  }
+
+  .photo {
+    height: 20em;
   }
 
   h2 {
     line-height: 1.5em;
+  }
+
+  .site-wrap.condensed {
+    width: 50%;
+  }
+
+  #sidenav.expanded {
+    width: 50%;
   }
 }
