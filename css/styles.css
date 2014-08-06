@@ -270,10 +270,10 @@ a {
   }
 
   .site-wrap.condensed {
-    width: 50%;
+    width: 60%;
   }
 
   #sidenav.expanded {
-    width: 50%;
+    width: 40%;
   }
 }
