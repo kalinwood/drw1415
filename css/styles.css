@@ -207,10 +207,11 @@ a {
 
 .unit-a {
   background: #393933;
-  height: 120px;
   text-align: center;
-  padding-top: 40px;
+  padding: 1em;
   clear: both;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 .unit-away {
@@ -329,6 +330,11 @@ footer a:hover {
   #sidenav.expanded {
     width: 40%;
     overflow: visible;
+  }
+
+  .unit-a {
+    padding: 1em;
+    font-size: 1em;
   }
 
 }
