@@ -328,5 +328,7 @@ footer a:hover {
 
   #sidenav.expanded {
     width: 40%;
+    overflow: visible;
   }
+
 }
