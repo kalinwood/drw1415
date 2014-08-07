@@ -49,17 +49,36 @@ ul {
 .sub-menu li {
     border-bottom: 1px solid black;
     padding: 1em 2em;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.sub-menu li:hover {
+    background: #B22F2A;
+}
+
+.last {
+  margin-bottom: 2em;
+}
+
+.wiim {
+  color: #B22F2A;
+  margin: 2em 2em;
+  border-bottom: 1px solid black;
+  -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.wiim:hover {
+  color: #FFFDE0;
 }
 
 .content{
     height: 100%;
     width: 100%;
     position: relative;
-}
-
-.burger {
-  float: right;
-  display: inline-block;
 }
 
 #click-box{
@@ -73,6 +92,13 @@ ul {
     cursor: pointer;
     height: 20px;
     width: 20px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#click-box:hover {
+    background-image: url(../images/burger2.svg);
 }
 
 #sidenav{
@@ -81,7 +107,6 @@ ul {
     overflow: hidden;
     float: left;
     background: #2B2B26;
-    /*padding: 1em 2em;*/
     white-space: nowrap;
     list-style: none;
     font-size: .7em;
@@ -114,7 +139,7 @@ li:hover {
 .photo {
   width: 100%;
   height: 30em;
-  background-image: url(../images/hank.jpg);
+  background-image: url(../images/bench2.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -204,6 +229,30 @@ a {
 .header {
   text-align: center;
   background-color: black;
+}
+
+footer {
+  background: #393933;
+  padding: .5em;
+  text-align: center;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+footer a {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: .7em;
+  color: #FFFDE0;
+  text-decoration: none;
+  padding: 0;
+  -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+footer a:hover {
+  color: #B22F2A;
 }
 
 /* ------- CLEARFIX ------- */
