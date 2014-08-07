@@ -103,7 +103,6 @@ ul {
 #sidenav{
     height: 100%;
     width: 0;
-    overflow: hidden;
     float: left;
     background: #2B2B26;
     white-space: nowrap;
