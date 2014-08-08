@@ -54,6 +54,10 @@ ul {
     transition: .5s;
 }
 
+a {
+  line-height: 4em;
+}
+
 .sub-menu li:hover {
     background: #B22F2A;
 }
